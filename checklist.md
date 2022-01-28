@@ -55,6 +55,7 @@ Goland / Pycharm Settings
 
 GIT 
 [ ] brew install git
+[ ] brew install git-lfs
 [ ] cd ~/github && git clone git@github.com:eric-dowty/system.git
 [ ] git config --global url."git@github.com:".insteadOf "https://github.com/"
 
