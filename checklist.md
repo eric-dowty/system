@@ -44,25 +44,19 @@ Anaconda
 Go
 [ ] brew install go
 
-Goland
+Goland / Pycharm Settings
 [ ] update license
 [ ] create CLI launcher: Tools -> Create Command Line Launcher
 [ ] Preferences -> Keymap -> Main Menu -> Window -> Editor Tabs -> Split and Move Right (ctrl+shift+s)
 [ ] Preferences -> Keymap -> Editor Actions -> Clone Caret Above (ctrl+shirt+up)
 [ ] Preferences -> Keymap -> Editor Actions -> Clone Caret Below (ctrl+shirt+down)
 [ ] Preferences -> Appearance & Behavior -> System Settings -> Autosave
-
-PyCharm
-[ ] update license
-[ ] create CLI launcher: Tools -> Create Command Line Launcher
-[ ] Preferences -> Keymap -> Main Menu -> Window -> Editor Tabs -> Split and Move Right (ctrl+shift+s)
-[ ] Preferences -> Keymap -> Editor Actions -> Clone Caret Above (ctrl+shirt+up)
-[ ] Preferences -> Keymap -> Editor Actions -> Clone Caret Below (ctrl+shirt+down)
-[ ] Preferences -> Appearance & Behavior -> System Settings -> Autosave
+[ ] cmd+1 -> Gear icon -> Always Select Opened File
 
 GIT 
 [ ] brew install git
 [ ] cd ~/github && git clone git@github.com:eric-dowty/system.git
+[ ] git config --global url."git@github.com:".insteadOf "https://github.com/"
 
 SYSTEM CONFIG
 [ ] cp -f ~/github/system/.hushlogin ~/.hushlogin
