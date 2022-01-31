@@ -37,6 +37,7 @@ export PATH=/opt/homebrew/bin:$PATH
 
 alias dlogin="docker login -u $DOCKER_USER -p $DOCKER_TOKEN"
 alias zedit="vim ~/.zshrc"
+alias zsrc="source ~/.zshrc"
 
 # Git
 alias ga="git add"
