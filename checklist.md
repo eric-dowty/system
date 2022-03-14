@@ -21,6 +21,10 @@ ALFRED
 - setup clipboard: Features -> Clipboard		
 - set clipboard Viewer Hotkey to cmd+shift+v
 
+CHROME EXTENSIONS
+- Vimium
+- Vue.js tools (if doing Vue projects)
+
 DIRECTORIES
 - mkdir ~/github
 - notes ~/notes
