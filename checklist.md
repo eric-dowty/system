@@ -14,39 +14,39 @@ OTHER THINGS
 - Hot corners
 
 DATABASE
-- brew install pgweb		if using postgress
+- `brew install pgweb` if using postgress
 
 ALFRED
 - update license
 - setup clipboard: Features -> Clipboard		
-- set clipboard Viewer Hotkey to cmd+shift+v
+- set clipboard Viewer Hotkey to `cmd+shift+v`
 
 CHROME EXTENSIONS
 - Vimium
 - Vue.js tools (if doing Vue projects)
 
 DIRECTORIES
-- mkdir ~/github
-- notes ~/notes
+- `mkdir ~/github`
+- `notes ~/notes`
 
 KEYS
-- ssh-keygen (/Users/<username>/.ssh/github.ppk)
+- `ssh-keygen` (/Users/<username>/.ssh/github.ppk)
 - add key to Github profile and delete old keys
-- ssh-add ~/.ssh/github.ppk
-- ssh-keygen (/Users/<username>/.ssh/id_rsa.ppk)
-- ssh-add ~/.ssh/id_rsa.ppk
+- `ssh-add ~/.ssh/github.ppk`
+- `ssh-keygen` (/Users/<username>/.ssh/id_rsa.ppk)
+- `ssh-add ~/.ssh/id_rsa.ppk`
 
 BREW
 - install brew 			https://brew.sh/
 
 Anaconda
-- brew install anaconda	follow install instructions
-- /opt/homebrew/anaconda3/bin/conda init
-- conda create --name py39 python=3.9
-- add to .zshrc: conda activate py39
+- `brew install anaconda` follow install instructions
+- `/opt/homebrew/anaconda3/bin/conda init`
+- `conda env create --name py39 python=3.9`
+- add to .zshrc: `conda activate py39`
 
 Go
-- brew install go
+- `brew install go`
 
 Goland / Pycharm Settings
 - update license
@@ -58,17 +58,17 @@ Goland / Pycharm Settings
 - cmd+1 -> Gear icon -> Always Select Opened File
 
 GIT 
-- brew install git
-- brew install git-lfs
-- cd ~/github && git clone git@github.com:eric-dowty/system.git
-- git config --global url."git@github.com:".insteadOf "https://github.com/"
+- `brew install git`
+- `brew install git-lfs`
+- `cd ~/github && git clone git@github.com:eric-dowty/system.git`
+- `git config --global url."git@github.com:".insteadOf "https://github.com/"`
 
 SYSTEM CONFIG
-- cp -f ~/github/system/.hushlogin ~/.hushlogin
-- cp -f ~/github/system/.vimrc ~/.vimrc
-- cp -f ~/github/system/.zshrc ~/.zshrc
-- cp -f ~/github/system/.ssh/config ~/.ssh/config
+- `cp -f ~/github/system/.hushlogin ~/.hushlogin`
+- `cp -f ~/github/system/.vimrc ~/.vimrc`
+- `cp -f ~/github/system/.zshrc ~/.zshrc`
+- `cp -f ~/github/system/.ssh/config ~/.ssh/config`
 
 NVM
-- brew install nvm 		follow install instructions
-- nvm install --lts 		install latest node version
+- `brew install nvm` follow install instructions
+- `nvm install --lts` install latest node version
