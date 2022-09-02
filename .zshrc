@@ -45,6 +45,7 @@ alias gp="git push"
 alias gs="git status"
 alias gcm="git commit -m"
 alias gco="git checkout"
+alias gh="git log --graph --decorate --oneline"
 
 # ------------------ ENV VARS ----------------
 
