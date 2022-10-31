@@ -62,6 +62,8 @@ GIT
 - `brew install git-lfs`
 - `cd ~/github && git clone git@github.com:eric-dowty/system.git`
 - `git config --global url."git@github.com:".insteadOf "https://github.com/"`
+- `echo "# Mac OS\n.DS_Store\n\n# JetBrains\n.idea/**" >> ~/.gitignore` 
+- `git config --global core.excludesfile ~/.gitignore`
 
 SYSTEM CONFIG
 - `cp -f ~/github/system/.hushlogin ~/.hushlogin`
